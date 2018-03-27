@@ -1,0 +1,395 @@
+html {
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    background-color: white;
+    color: dimgrey;
+}
+
+body {
+   line-height: 1.4;  
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.logo {
+    height: 2rem;
+    display: flex;
+    align-items: center; 
+}
+
+.logo span {
+    font-size: 1.5rem;
+}
+
+.logo img {
+    height: 3rem;
+    margin-left: 2rem;
+}
+
+.mobile-menu,
+.mobile-image {
+    display: none;
+}
+
+.desktop-menu ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.desktop-menu ul li {
+    margin: 0 1rem;
+}
+
+.logo span {
+    color: grey;
+}
+
+.logo .bold {
+    font-weight: bold;
+    color: black;
+}
+
+.main-banner {
+    background-color: lightgrey;
+    display: flex;
+}
+
+.banner-image,
+.desktop-sidebar,
+.thesis-video {
+    width: 60%;
+    margin: 2rem 1.5rem;
+}
+
+.banner-image img {
+    width: 95%;
+    height: auto;
+}
+
+.main-banner-text {
+    width: 40%;
+    margin: auto 5rem;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-text {
+    color: dimgrey;
+}
+
+.banner-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.banner-text {
+    font-size: 2rem;
+}
+
+.button {
+    background-color: dimgrey;
+    color: white;
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.supporting {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.supporting-details {
+    max-width: 1100px;
+    font-size: 1.5rem;
+}
+
+.supporting-details h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.supporting img {
+    width: 100%;
+    height: auto;
+}
+
+.quote {
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.academy-info,
+.thesis-info {
+    width: 40%;
+    margin: 2rem;
+}
+
+.academy-info {
+    border-left: 1px solid lightgrey;
+}
+
+.item {
+    display: flex;
+    padding: 1rem 1rem;
+}
+
+.item:nth-child(2n+0) {
+    border-top: 3px solid lightgrey;
+}
+
+#guest-lecture,
+#fisma {
+    background-color: lightgrey;
+}
+
+.item:first-child,
+.item img:first-child {
+    padding-top: 0;
+}
+.item-image {
+    width: 35%;
+    height: auto;
+    padding: 1rem 1rem;
+}
+.item img {
+    width: 100%; 
+}
+
+.item-text {
+    width: 65%;
+    margin-left: 1rem;
+}
+
+.item h4,
+.course-text h4,
+.supporting-details h4 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.item p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.item p a {
+    color: blue;
+    text-decoration: none;
+}
+
+.classes {
+   background-color: lightgrey; 
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+}
+
+.syllabus h2,
+.thesis-title h2 {
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.col1,
+.col2,
+.col3 {
+  width: 33%;  
+}
+
+.course {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    flex-basis: 33%;
+}
+
+.course-image img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.course-text {
+    background-color: white;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.course-text:nth-child(4n+0) {
+    padding-bottom: 1.5rem;
+}
+
+.course-text p {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.thesis-content {
+    display: flex;
+}
+
+.thesis-info {
+    display: flex;
+    flex-direction: column;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#fisma {
+    padding-top: 1rem;
+}
+
+.supporting-details h4 {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-top: 1px solid lightgrey;
+    padding-top: 1rem;
+}
+
+footer nav  {
+    align-items: flex-start;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding-right: 1.5rem;
+}
+
+@media only screen and (max-width: 376px) {
+    .desktop-menu,
+    .desktop-image,
+    .desktop-sidebar,
+    .logo,
+    .course-image,
+    .course-text p,
+    .thesis-info,
+    .supporting-details {
+        display: none;
+    }
+    
+    .mobile-menu {
+        display: flex;
+        justify-content: space-around;
+        height: 4rem;
+        align-items: center;
+    }
+    
+    .banner-image  {
+       margin-bottom: 0; 
+    }
+    
+    .main-banner,
+    .supporting,
+    .item,
+    .courses {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-banner-text {
+        width: 90%;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    
+    .main-banner-text h1 {
+        margin-bottom: 2rem;
+    }
+    
+    .main-banner-text p {
+        padding-bottom: 1.5rem;
+    }
+    
+    .academy-info,
+    .item-image,
+    .banner-image,
+    .banner-image img,
+    .mobile-menu,
+    .item-text,
+    .col1,
+    .col2,
+    .col3,
+    .thesis-video {
+        width: 100%;
+    }
+    
+    .mobile-image {
+        display: block;
+    }
+    
+    #guest-lecture,
+    .classes {
+        background-color: white;
+    }
+    
+    .course-text {
+        background-color: lightgrey;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+    
+    .course {
+        margin-bottom: 0.5rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .mobile-menu ul li img {
+        height: 90%;
+        padding-right: 2rem;
+    }
+    
+    .thesis-video {
+        margin-top: 0;
+    }
+    
+    section {
+        border-bottom: .5px solid lightgrey;
+    }
+   .syllabus h2 {
+        padding-top: 0;
+    }
+}
